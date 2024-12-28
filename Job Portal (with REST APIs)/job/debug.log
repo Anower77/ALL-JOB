@@ -1,0 +1,597 @@
+Watching for file changes with StatReloader
+C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\account\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Attempting to send email to: aman@gmail.com
+From email: Job Portal <anowerhossain765562@gmail.com>
+Domain: 127.0.0.1:8000
+Attempting to send email to: kafayat@gmail.com
+From email: Job Portal <anowerhossain765562@gmail.com>
+Domain: 127.0.0.1:8000
+Attempting to send email to: jamala@gmail.com
+From email: Job Portal <anowerhossain765562@gmail.com>
+Domain: 127.0.0.1:8000
+C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\account\views.py changed, reloading.
+Watching for file changes with StatReloader
+Creating activation email for: kafayat@gmail.com
+Domain: 127.0.0.1:8000
+Activation email sent successfully to kafayat@gmail.com
+C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\job\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Creating activation email for: kafayat@gmail.com
+Domain: 127.0.0.1:8000
+Activation email sent successfully to kafayat@gmail.com
+Watching for file changes with StatReloader
+C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\job\settings.py changed, reloading.
+INFO 2024-12-28 00:39:44,552 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 00:40:09,822 views User created successfully: kafayat@gmail.com
+INFO 2024-12-28 00:40:09,823 views Generated activation token for user kafayat@gmail.com
+INFO 2024-12-28 00:40:09,824 views UID: MTk
+INFO 2024-12-28 00:40:09,824 views Token: cipz6x-ea0a7194894fa516831b336f21effb67
+INFO 2024-12-28 00:40:09,824 views Domain: 127.0.0.1:8000
+INFO 2024-12-28 00:40:09,827 views Email template rendered successfully
+INFO 2024-12-28 00:40:16,178 views Activation email sent successfully to kafayat@gmail.com
+INFO 2024-12-28 00:41:13,682 views User created successfully: sanower@gmail.com
+INFO 2024-12-28 00:41:13,682 views Generated activation token for user sanower@gmail.com
+INFO 2024-12-28 00:41:13,682 views UID: MjA
+INFO 2024-12-28 00:41:13,683 views Token: cipz8p-2c66978f0c44fafcfb4efe475b460f7a
+INFO 2024-12-28 00:41:13,683 views Domain: 127.0.0.1:8000
+INFO 2024-12-28 00:41:13,684 views Email template rendered successfully
+INFO 2024-12-28 00:41:20,939 views Activation email sent successfully to sanower@gmail.com
+INFO 2024-12-28 00:47:42,457 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\account\forms.py changed, reloading.
+INFO 2024-12-28 00:47:43,671 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 00:48:41,916 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\account\forms.py changed, reloading.
+INFO 2024-12-28 00:48:42,990 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 00:48:54,541 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\account\models.py changed, reloading.
+INFO 2024-12-28 00:48:56,140 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 00:54:03,999 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 00:56:00,738 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\job\urls.py changed, reloading.
+INFO 2024-12-28 00:56:01,712 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 00:58:00,831 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 00:58:39,710 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\project_app\serializers.py changed, reloading.
+INFO 2024-12-28 00:58:40,911 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-28 00:59:20,529 log Internal Server Error: /api/jobs/
+Traceback (most recent call last):
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `type` is not valid for model `Job` in `project_app.serializers.JobSerializer`.
+DEBUG 2024-12-28 00:59:26,906 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 00:59:26,907 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+ERROR 2024-12-28 00:59:43,398 log Internal Server Error: /api/jobs/
+Traceback (most recent call last):
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `type` is not valid for model `Job` in `project_app.serializers.JobSerializer`.
+INFO 2024-12-28 01:00:32,818 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\project_app\serializers.py changed, reloading.
+INFO 2024-12-28 01:00:34,004 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 01:00:37,737 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\jobapp\models.py changed, reloading.
+INFO 2024-12-28 01:00:38,891 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 01:00:59,549 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-28 01:01:01,684 log Internal Server Error: /api/jobs/
+Traceback (most recent call last):
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `website` is not valid for model `Job` in `project_app.serializers.JobSerializer`.
+DEBUG 2024-12-28 01:01:05,919 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:01:05,920 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG 2024-12-28 01:01:11,162 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:01:11,162 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+WARNING 2024-12-28 01:01:13,298 log Forbidden: /api/jobs/
+WARNING 2024-12-28 01:01:17,480 log Forbidden: /api/applicants/
+WARNING 2024-12-28 01:01:20,522 log Forbidden: /api/users/
+DEBUG 2024-12-28 01:01:32,189 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:01:32,190 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+ERROR 2024-12-28 01:01:34,155 log Internal Server Error: /api/jobs/
+Traceback (most recent call last):
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `website` is not valid for model `Job` in `project_app.serializers.JobSerializer`.
+DEBUG 2024-12-28 01:01:38,154 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:01:38,155 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG 2024-12-28 01:02:11,511 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:02:11,511 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+ERROR 2024-12-28 01:02:13,059 log Internal Server Error: /api/jobs/
+Traceback (most recent call last):
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `website` is not valid for model `Job` in `project_app.serializers.JobSerializer`.
+INFO 2024-12-28 01:02:39,229 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\project_app\serializers.py changed, reloading.
+INFO 2024-12-28 01:02:40,326 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 01:02:48,933 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-28 01:02:52,494 log Internal Server Error: /api/jobs/
+Traceback (most recent call last):
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 683, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type _TaggableManager is not JSON serializable
+DEBUG 2024-12-28 01:02:57,023 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:02:57,023 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+ERROR 2024-12-28 01:02:58,634 log Internal Server Error: /api/jobs/
+Traceback (most recent call last):
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 683, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type _TaggableManager is not JSON serializable
+INFO 2024-12-28 01:03:29,706 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\project_app\serializers.py changed, reloading.
+INFO 2024-12-28 01:03:30,814 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-28 01:03:34,681 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:03:34,681 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+WARNING 2024-12-28 01:05:26,473 log Forbidden: /api/jobs/
+WARNING 2024-12-28 01:05:26,521 log Forbidden: /api/jobs/
+DEBUG 2024-12-28 01:05:35,763 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:05:35,763 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+ERROR 2024-12-28 01:05:38,128 log Internal Server Error: /api/applicants/
+Traceback (most recent call last):
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 658, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 565, in get_raw_data_form
+    data = serializer.data.copy()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.get_initial()
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 421, in get_initial
+    for field in self.fields.values()
+                 ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `status` is not valid for model `Applicant` in `project_app.serializers.ApplicantSerializer`.
+INFO 2024-12-28 01:06:06,626 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\project_app\serializers.py changed, reloading.
+INFO 2024-12-28 01:06:07,995 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 01:06:11,133 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\jobapp\models.py changed, reloading.
+INFO 2024-12-28 01:06:12,276 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 01:06:29,532 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-28 01:06:32,974 log Internal Server Error: /api/applicants/
+Traceback (most recent call last):
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 658, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\renderers.py", line 565, in get_raw_data_form
+    data = serializer.data.copy()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.get_initial()
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 421, in get_initial
+    for field in self.fields.values()
+                 ^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anowe\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `created_at` is not valid for model `Applicant` in `project_app.serializers.ApplicantSerializer`.
+INFO 2024-12-28 01:06:53,474 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\project_app\serializers.py changed, reloading.
+INFO 2024-12-28 01:06:54,690 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-28 01:06:58,808 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:06:58,808 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG 2024-12-28 01:07:05,086 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:07:05,087 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG 2024-12-28 01:07:07,016 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:07:07,016 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG 2024-12-28 01:07:14,146 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:07:14,146 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+WARNING 2024-12-28 01:07:14,151 log Bad Request: /api/users/
+DEBUG 2024-12-28 01:07:19,447 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:07:19,447 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG 2024-12-28 01:07:23,325 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:07:23,325 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+INFO 2024-12-28 01:07:48,624 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\project_app\serializers.py changed, reloading.
+INFO 2024-12-28 01:07:49,735 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 01:11:09,756 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\job\settings.py changed, reloading.
+INFO 2024-12-28 01:11:10,967 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 01:11:32,590 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\job\settings.py changed, reloading.
+INFO 2024-12-28 01:11:34,254 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 01:11:47,822 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\job\settings.py changed, reloading.
+INFO 2024-12-28 01:11:48,793 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 01:13:17,460 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\job\settings.py changed, reloading.
+INFO 2024-12-28 01:13:19,037 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-28 01:13:23,295 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2024-12-28 01:13:23,296 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
+INFO 2024-12-28 01:14:15,615 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\job\settings.py changed, reloading.
+INFO 2024-12-28 01:14:16,651 autoreload Watching for file changes with StatReloader

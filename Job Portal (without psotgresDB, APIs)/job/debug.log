@@ -1,0 +1,45 @@
+Watching for file changes with StatReloader
+C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\account\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Attempting to send email to: aman@gmail.com
+From email: Job Portal <anowerhossain765562@gmail.com>
+Domain: 127.0.0.1:8000
+Attempting to send email to: kafayat@gmail.com
+From email: Job Portal <anowerhossain765562@gmail.com>
+Domain: 127.0.0.1:8000
+Attempting to send email to: jamala@gmail.com
+From email: Job Portal <anowerhossain765562@gmail.com>
+Domain: 127.0.0.1:8000
+C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\account\views.py changed, reloading.
+Watching for file changes with StatReloader
+Creating activation email for: kafayat@gmail.com
+Domain: 127.0.0.1:8000
+Activation email sent successfully to kafayat@gmail.com
+C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\job\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Creating activation email for: kafayat@gmail.com
+Domain: 127.0.0.1:8000
+Activation email sent successfully to kafayat@gmail.com
+Watching for file changes with StatReloader
+C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\job\settings.py changed, reloading.
+INFO 2024-12-28 00:39:44,552 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 00:40:09,822 views User created successfully: kafayat@gmail.com
+INFO 2024-12-28 00:40:09,823 views Generated activation token for user kafayat@gmail.com
+INFO 2024-12-28 00:40:09,824 views UID: MTk
+INFO 2024-12-28 00:40:09,824 views Token: cipz6x-ea0a7194894fa516831b336f21effb67
+INFO 2024-12-28 00:40:09,824 views Domain: 127.0.0.1:8000
+INFO 2024-12-28 00:40:09,827 views Email template rendered successfully
+INFO 2024-12-28 00:40:16,178 views Activation email sent successfully to kafayat@gmail.com
+INFO 2024-12-28 00:41:13,682 views User created successfully: sanower@gmail.com
+INFO 2024-12-28 00:41:13,682 views Generated activation token for user sanower@gmail.com
+INFO 2024-12-28 00:41:13,682 views UID: MjA
+INFO 2024-12-28 00:41:13,683 views Token: cipz8p-2c66978f0c44fafcfb4efe475b460f7a
+INFO 2024-12-28 00:41:13,683 views Domain: 127.0.0.1:8000
+INFO 2024-12-28 00:41:13,684 views Email template rendered successfully
+INFO 2024-12-28 00:41:20,939 views Activation email sent successfully to sanower@gmail.com
+INFO 2024-12-28 00:47:42,457 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\account\forms.py changed, reloading.
+INFO 2024-12-28 00:47:43,671 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 00:48:41,916 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\account\forms.py changed, reloading.
+INFO 2024-12-28 00:48:42,990 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 00:48:54,541 autoreload C:\Users\Anowe\OneDrive\Desktop\Job Board DRF Django Project\Job Portal\job\account\models.py changed, reloading.
+INFO 2024-12-28 00:48:56,140 autoreload Watching for file changes with StatReloader

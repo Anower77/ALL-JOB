@@ -1,0 +1,43 @@
+Job Board Project
+
+User Authentication: 
+ 1.Users can register for an account and log in.
+ 2.User roles: Employers and Job Seekers.
+
+Job Listings:	
+ 1.Employers can create job listings by providing details such as job title, description, requirements, and location.
+ 2.Job listings should display key information, such as the job title, company name, and date posted.
+
+
+Job Details: 
+ 1.Users can view detailed information about a job listing, including the job description, requirements, and application instructions.
+ 2.Job Seekers Can Apply to a job by uploading resume and providing other information
+
+User Dashboard: 
+ 1.Employers have a dashboard to manage their posted job listings, view applications, and update job details.
+ 2.Job seekers have a dashboard to track their applications.
+ 3.Job Categories: 
+ 4.Jobs can be categorized based on industries, making it easier for users to find relevant listings.
+
+Email Notifications: 
+ 1.Send email notifications to users when they successfully apply for a job or when an employer receives a new application.
+
+Deployment and Submission: 
+ 1.Deploy the functional website on a reliable hosting platform.
+
+CRUD Operations:
+Create:
+ 1.Employers can create new job listings by providing the necessary details.
+ 2.Job seekers can create profiles with relevant information.
+
+Read:
+ 1.Job listings can be viewed by all users, even those who are not logged in.
+ 2.Job seekers can view the details of a job listing before applying.
+
+Update:
+ 1.Employers can edit and update the details of their job listings.
+ 2.Job seekers can update their resumes.
+
+Delete:
+ 1.Employers can delete their job listings.
+ 2.Job seekers can withdraw their applications.
